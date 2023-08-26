@@ -178,33 +178,212 @@ button {
 .voltar > button {
   box-shadow: 0px 10px 40px #00000056;
 }
-.timer {
-  padding: 20px;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Inconsolata&family=Playfair+Display:ital@1&family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+body {
+    font-family: Inconsolata;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+body {
+    margin: 0;
+    font-family: Inconsolata;
+  }
+  
+  .menu {
+    background-color: #001F3F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .menu-list li a:hover {
+    color: black;
+  }
+  
+  .logo {
+  font-size: 24px;
+  }
+  
+  .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-list {
+      display: none;
+      flex-direction: column;
+      background-color: #001F3F;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      text-align: center;
+    }
+  
+    .menu-list.active {
+      display: flex;
+    }
+  
+    .burger {
+      display: flex;
+    }
+    img{
+   display: none;
+    }
+    footer{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header img {
+      padding-left: 40px;
+      padding: 40px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 5px solid white;
+    }
+  }
+.button-duv{
   text-align: center;
-  margin-top: 200px;
+  padding-top: 180px;
 }
+.button-duv > h1 {
+  justify-content: flex;
+  text-align: center;
 
-#time-display {
-  font-family: isota;
-  font-size: 36px;
-  margin-bottom: 20px;
 }
-
-.button-group {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+ justify-content: flex;
 }
 
 button {
-  font-family: isota;
-  padding: 10px 20px;
-  background-color: #022c47;
-  color: white;
-  border: none;
-  cursor: pointer;
+  background-color: #001F3F;
+  height: 100px;
+  justify-content: flex;
+  box-shadow: 0px 7px 7px #00000042;
 }
 
-.h1-cron {
-  text-align: center ;
+.Organization{
+  padding: 0px 30px;
 }
+
+
+.btns {
+  text-align: center;
+  margin-block-end: 30px;
+}
+
+/* Estilos existentes... */
+
+/* Estilos existentes ... */
+
+/* Estilos existentes ... */
+
+.chat {
+  width: 350px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 7px 7px #00000042;
+}
+
+.message-box {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Estilos para as mensagens */
+.message {
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 7px 7px #00000042;
+}
+
+.user {
+  background-color: #033252;
+  color: white;
+  box-shadow: 0px 7px 7px #00000042;
+}
+
+.bot {
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 0px 7px 7px #00000042;
+}
+ h3 {
+  padding: 30px;
+ }

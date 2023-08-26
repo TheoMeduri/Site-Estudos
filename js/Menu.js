@@ -14,4 +14,5 @@ atividadesList.addEventListener('click', (event) => {
     const atividadeItem = event.target.closest('.atividade');
     atividadeItem.classList.remove('concluida');
   }
-});
+})
+
