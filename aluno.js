@@ -2,7 +2,7 @@ const activityList = document.getElementById('activity-list');
 
 // Simulação de atividades para alunos
 const activities = [
-    { text: '', description: '', date: '' },
+    { text: 'Arte', description: 'Fazer capa do 3 tri', date: '28/8/23' },
     { text: '', description: '', date: '' },
     { text: '', description: '', date: '' },
     { text: '', description: '', date: '' },
