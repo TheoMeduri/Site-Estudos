@@ -98,7 +98,7 @@ function closeChatAndRedirect() {
   addSystemMessage("Vamos fechar o chat! Você ainda não digitou nada! depois desta mensagem não adianta mais escrever! ");
   setTimeout(function() {
     // Simulação de redirecionamento para a página principal (substitua pelo seu URL)
-    window.location.href = "/pagina.html";
+    window.location.href = "/Site-Estudos/pagina.html";
   }, 15000); // 7000 milissegundos (7 segundos)
 }
 
