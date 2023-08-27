@@ -359,6 +359,11 @@ button {
   margin-bottom: 20px;
 }
 
+/* Estilize a borda do campo de entrada quando estiver em foco */
+#message-input {
+  outline:none;
+}
+
 .input-box {
   display: flex;
   gap: 10px;
@@ -387,3 +392,17 @@ button {
  h3 {
   padding: 30px;
  }
+ #typing-indicator {
+  display: none;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.typing-indicator.bot {
+  bottom: 40px; /* Ajuste conforme necessário */
+}
+
+/* Outros estilos... */

@@ -178,6 +178,25 @@ button {
   padding-top: 10px;
   justify-content: flex;
 }
+.Mat {
+  padding: 20px;
+  padding-top: 10px;
+}
+.Mat > h2 {
+  text-decoration: wavy;
+  font-family: Inconsolata;
+  color: black;
+  padding-top: 10px;
+  justify-content: flex;
+}
+
+.Mat > h3{
+  text-decoration: wavy;
+  font-family: Inconsolata;
+  color: #022c47;
+  padding-top: 10px;
+  justify-content: flex;
+}
 
 .ing {
   padding: 20px;
@@ -363,3 +382,7 @@ button {
 }
 
 /* Estilos existentes da página */
+
+.ajuda > button {
+  width: 150px;
+}
