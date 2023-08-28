@@ -18,7 +18,7 @@ let currentBotName = botNames[selectedBotIndex];
 
 const responses = {
   'olá': `Olá! ${userName}, estou à sua disposição!`,
-  '401 error o que seria?': `Normalmente significa que o site está passando por atualizações ou manutenções, o que pode resultar em sobrecarga para receber usuários. Se o erro persistir, tente acessar em um momento posterior.`,
+  'o que significa o erro 401?': `Normalmente significa que o site está passando por atualizações ou manutenções, o que pode resultar em sobrecarga para receber usuários. Se o erro persistir, tente acessar em um momento posterior.`,
   'quero ajuda com o resumo': 'Você está falando do resumo adicionado recentimente no site, Ele tem algum erro? "sim" "não" "sobre outra coisa"',
   'sim': 'Claro! ele foi gerado por IA, não temos o controle, mil desculpas. Fale com o Theo Meduri, já que ele é o único que pode arrumar.',
   'não': 'Otimo, obrigado por falar pra gente! vamos colocar mais destes no site.',
